@@ -1,0 +1,944 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "emailAddress": "aaardvark@wisc.edu",
+                "firstName": "Abby",
+                "lastName": "Aardvark",
+                "officeAddress": "821 University Avenue, Madison, WI",
+                "officePhoneNumber": "608-111-2222"
+            },
+            "id": "50",
+            "links": {
+                "self": "https://mock.api.wisc.edu/people/50"
+            },
+            "meta": {
+                "ferpa": false,
+                "ferpaAttributes": [
+                    "emailAddress"
+                ],
+                "privateAttributes": [
+                    "emailAddress"
+                ]
+            },
+            "relationships": {
+                "addresses": {
+                    "data": [
+                        {
+                            "id": "1004",
+                            "type": "addresses"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/50/addresses"
+                    }
+                },
+                "identifiers": {
+                    "data": [
+                        {
+                            "id": "51",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "60",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "999",
+                            "type": "identifiers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/50/identifiers"
+                    }
+                },
+                "jobs": {
+                    "data": [
+                        {
+                            "id": "999",
+                            "type": "jobs"
+                        },
+                        {
+                            "id": "1999",
+                            "type": "jobs"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/50/jobs"
+                    }
+                },
+                "names": {
+                    "data": [
+                        {
+                            "id": "51",
+                            "type": "names"
+                        },
+                        {
+                            "id": "1054",
+                            "type": "names"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/50/names"
+                    }
+                },
+                "phoneNumbers": {
+                    "data": [
+                        {
+                            "id": "104",
+                            "type": "phoneNumbers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/50/phoneNumbers"
+                    }
+                },
+                "wiscard": {
+                    "data": {
+                        "id": "50",
+                        "type": "wiscard"
+                    },
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/50/wiscard"
+                    }
+                }
+            },
+            "type": "people"
+        },
+        {
+            "attributes": {
+                "emailAddress": "john.smith@wisc.edu",
+                "firstName": "John",
+                "lastName": "Smith",
+                "officeAddress": "1210 W. Dayton Street Madison, WI 53706",
+                "officePhoneNumber": "555-555-5555"
+            },
+            "id": "100",
+            "links": {
+                "self": "https://mock.api.wisc.edu/people/100"
+            },
+            "meta": {
+                "ferpa": false,
+                "privateAttributes": [
+                    "emailAddress",
+                    "officeAddress",
+                    "officePhoneNumber"
+                ]
+            },
+            "relationships": {
+                "addresses": {
+                    "data": [
+                        {
+                            "id": "1000",
+                            "type": "addresses"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/100/addresses"
+                    }
+                },
+                "identifiers": {
+                    "data": [
+                        {
+                            "id": "100",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "101",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "110",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "120",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "130",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "140",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "150",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "160",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "170",
+                            "type": "identifiers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/100/identifiers"
+                    }
+                },
+                "jobs": {
+                    "data": [
+                        {
+                            "id": "100",
+                            "type": "jobs"
+                        },
+                        {
+                            "id": "110",
+                            "type": "jobs"
+                        },
+                        {
+                            "id": "120",
+                            "type": "jobs"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/100/jobs"
+                    }
+                },
+                "names": {
+                    "data": [
+                        {
+                            "id": "101",
+                            "type": "names"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/100/names"
+                    }
+                },
+                "phoneNumbers": {
+                    "data": [
+                        {
+                            "id": "100",
+                            "type": "phoneNumbers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/100/phoneNumbers"
+                    }
+                },
+                "wiscard": {
+                    "data": {
+                        "id": "100",
+                        "type": "wiscard"
+                    },
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/100/wiscard"
+                    }
+                }
+            },
+            "type": "people"
+        },
+        {
+            "attributes": {
+                "emailAddress": "jane.doe@wisc.edu",
+                "firstName": "Jane",
+                "lastName": "Doe",
+                "officeAddress": "1210 W. Dayton Street Madison, WI 53706",
+                "officePhoneNumber": "555-555-5555"
+            },
+            "id": "200",
+            "links": {
+                "self": "https://mock.api.wisc.edu/people/200"
+            },
+            "meta": {
+                "ferpa": true
+            },
+            "relationships": {
+                "addresses": {
+                    "data": [
+                        {
+                            "id": "1001",
+                            "type": "addresses"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/200/addresses"
+                    }
+                },
+                "identifiers": {
+                    "data": [
+                        {
+                            "id": "200",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "201",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "210",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "220",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "230",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "240",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "250",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "260",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "270",
+                            "type": "identifiers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/200/identifiers"
+                    }
+                },
+                "jobs": {
+                    "data": [
+                        {
+                            "id": "200",
+                            "type": "jobs"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/200/jobs"
+                    }
+                },
+                "names": {
+                    "data": [
+                        {
+                            "id": "200",
+                            "type": "names"
+                        },
+                        {
+                            "id": "201",
+                            "type": "names"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/200/names"
+                    }
+                },
+                "phoneNumbers": {
+                    "data": [
+                        {
+                            "id": "101",
+                            "type": "phoneNumbers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/200/phoneNumbers"
+                    }
+                },
+                "wiscard": {
+                    "data": {
+                        "id": "200",
+                        "type": "wiscard"
+                    },
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/200/wiscard"
+                    }
+                }
+            },
+            "type": "people"
+        },
+        {
+            "attributes": {
+                "emailAddress": "sam.stevenson@wisc.edu",
+                "firstName": "Sam",
+                "lastName": "Stevenson",
+                "officeAddress": "1210 W. Dayton Street Madison, WI 53706",
+                "officePhoneNumber": "555-555-5555"
+            },
+            "id": "300",
+            "links": {
+                "self": "https://mock.api.wisc.edu/people/300"
+            },
+            "meta": {
+                "ferpa": false,
+                "ferpaAttributes": [
+                    "emailAddress",
+                    "officeAddress",
+                    "officePhoneNumber"
+                ]
+            },
+            "relationships": {
+                "addresses": {
+                    "data": [
+                        {
+                            "id": "1002",
+                            "type": "addresses"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/300/addresses"
+                    }
+                },
+                "identifiers": {
+                    "data": [
+                        {
+                            "id": "300",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "301",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "310",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "320",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "330",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "340",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "350",
+                            "type": "identifiers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/300/identifiers"
+                    }
+                },
+                "jobs": {
+                    "data": [
+                        {
+                            "id": "300",
+                            "type": "jobs"
+                        },
+                        {
+                            "id": "310",
+                            "type": "jobs"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/300/jobs"
+                    }
+                },
+                "names": {
+                    "data": [
+                        {
+                            "id": "300",
+                            "type": "names"
+                        },
+                        {
+                            "id": "301",
+                            "type": "names"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/300/names"
+                    }
+                },
+                "phoneNumbers": {
+                    "data": [
+                        {
+                            "id": "102",
+                            "type": "phoneNumbers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/300/phoneNumbers"
+                    }
+                },
+                "wiscard": {
+                    "data": {
+                        "id": "300",
+                        "type": "wiscard"
+                    },
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/300/wiscard"
+                    }
+                }
+            },
+            "type": "people"
+        },
+        {
+            "attributes": {
+                "emailAddress": "lǐ.chánjuān@wisc.edu",
+                "firstName": "婵娟",
+                "lastName": "李",
+                "officeAddress": "1210 W. Dayton Street Madison, WI 53706",
+                "officePhoneNumber": "555-555-5555"
+            },
+            "id": "400",
+            "links": {
+                "self": "https://mock.api.wisc.edu/people/400"
+            },
+            "meta": {
+                "ferpa": false
+            },
+            "relationships": {
+                "addresses": {
+                    "data": [
+                        {
+                            "id": "1003",
+                            "type": "addresses"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/400/addresses"
+                    }
+                },
+                "identifiers": {
+                    "data": [
+                        {
+                            "id": "400",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "420",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "430",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "440",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "450",
+                            "type": "identifiers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/400/identifiers"
+                    }
+                },
+                "jobs": {
+                    "data": [
+                        {
+                            "id": "400",
+                            "type": "jobs"
+                        },
+                        {
+                            "id": "1400",
+                            "type": "jobs"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/400/jobs"
+                    }
+                },
+                "names": {
+                    "data": [
+                        {
+                            "id": "401",
+                            "type": "names"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/400/names"
+                    }
+                },
+                "phoneNumbers": {
+                    "data": [
+                        {
+                            "id": "103",
+                            "type": "phoneNumbers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/400/phoneNumbers"
+                    }
+                },
+                "wiscard": {
+                    "data": {
+                        "id": "400",
+                        "type": "wiscard"
+                    },
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/400/wiscard"
+                    }
+                }
+            },
+            "type": "people"
+        },
+        {
+            "attributes": {
+                "emailAddress": "rob.robertson@wisc.edu",
+                "firstName": "Robert",
+                "lastName": "Robertson",
+                "officeAddress": null,
+                "officePhoneNumber": null
+            },
+            "id": "500",
+            "links": {
+                "self": "https://mock.api.wisc.edu/people/500"
+            },
+            "meta": {
+                "ferpa": false
+            },
+            "relationships": {
+                "addresses": {
+                    "data": [],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/500/addresses"
+                    }
+                },
+                "identifiers": {
+                    "data": [
+                        {
+                            "id": "500",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "550",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "560",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "570",
+                            "type": "identifiers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/500/identifiers"
+                    }
+                },
+                "jobs": {
+                    "data": [],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/500/jobs"
+                    }
+                },
+                "names": {
+                    "data": [
+                        {
+                            "id": "501",
+                            "type": "names"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/500/names"
+                    }
+                },
+                "phoneNumbers": {
+                    "data": [],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/500/phoneNumbers"
+                    }
+                },
+                "wiscard": {
+                    "data": null,
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/500/wiscard"
+                    }
+                }
+            },
+            "type": "people"
+        },
+        {
+            "attributes": {
+                "emailAddress": "supervisor@wisc.edu",
+                "firstName": "Sally",
+                "lastName": "Supervisor",
+                "officeAddress": "1210 W. Dayton Street Madison, WI 53706",
+                "officePhoneNumber": "555-555-5555"
+            },
+            "id": "600",
+            "links": {
+                "self": "https://mock.api.wisc.edu/people/600"
+            },
+            "meta": {
+                "ferpa": false
+            },
+            "relationships": {
+                "addresses": {
+                    "data": [
+                        {
+                            "id": "1005",
+                            "type": "addresses"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/600/addresses"
+                    }
+                },
+                "identifiers": {
+                    "data": [
+                        {
+                            "id": "600",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "610",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "620",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "630",
+                            "type": "identifiers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/600/identifiers"
+                    }
+                },
+                "jobs": {
+                    "data": [
+                        {
+                            "id": "600",
+                            "type": "jobs"
+                        },
+                        {
+                            "id": "1600",
+                            "type": "jobs"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/600/jobs"
+                    }
+                },
+                "names": {
+                    "data": [],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/600/names"
+                    }
+                },
+                "phoneNumbers": {
+                    "data": [
+                        {
+                            "id": "105",
+                            "type": "phoneNumbers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/600/phoneNumbers"
+                    }
+                },
+                "wiscard": {
+                    "data": {
+                        "id": "600",
+                        "type": "wiscard"
+                    },
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/600/wiscard"
+                    }
+                }
+            },
+            "type": "people"
+        },
+        {
+            "attributes": {
+                "emailAddress": "hutz@wisc.edu",
+                "firstName": "Lionel",
+                "lastName": "Hutz",
+                "officeAddress": null,
+                "officePhoneNumber": null
+            },
+            "id": "700",
+            "links": {
+                "self": "https://mock.api.wisc.edu/people/700"
+            },
+            "meta": {
+                "ferpa": true,
+                "ferpaAttributes": [
+                    "emailAddress"
+                ],
+                "privateAttributes": [
+                    "emailAddress"
+                ]
+            },
+            "relationships": {
+                "addresses": {
+                    "data": [],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/700/addresses"
+                    }
+                },
+                "identifiers": {
+                    "data": [
+                        {
+                            "id": "700",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "710",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "720",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "750",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "770",
+                            "type": "identifiers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/700/identifiers"
+                    }
+                },
+                "jobs": {
+                    "data": [],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/700/jobs"
+                    }
+                },
+                "names": {
+                    "data": [
+                        {
+                            "id": "700",
+                            "type": "names"
+                        },
+                        {
+                            "id": "710",
+                            "type": "names"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/700/names"
+                    }
+                },
+                "phoneNumbers": {
+                    "data": [],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/700/phoneNumbers"
+                    }
+                },
+                "wiscard": {
+                    "data": {
+                        "id": "700",
+                        "type": "wiscard"
+                    },
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/700/wiscard"
+                    }
+                }
+            },
+            "type": "people"
+        },
+        {
+            "attributes": {
+                "emailAddress": "mann@wisc.edu",
+                "firstName": "Otto",
+                "lastName": "Mann",
+                "officeAddress": "27 N. Charter Street Madison, WI 53715",
+                "officePhoneNumber": "555-555-5555"
+            },
+            "id": "800",
+            "links": {
+                "self": "https://mock.api.wisc.edu/people/800"
+            },
+            "meta": {
+                "ferpa": false
+            },
+            "relationships": {
+                "addresses": {
+                    "data": [],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/800/addresses"
+                    }
+                },
+                "identifiers": {
+                    "data": [
+                        {
+                            "id": "800",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "810",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "820",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "840",
+                            "type": "identifiers"
+                        },
+                        {
+                            "id": "850",
+                            "type": "identifiers"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/800/identifiers"
+                    }
+                },
+                "jobs": {
+                    "data": [
+                        {
+                            "id": "800",
+                            "type": "jobs"
+                        },
+                        {
+                            "id": "1800",
+                            "type": "jobs"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/800/jobs"
+                    }
+                },
+                "names": {
+                    "data": [
+                        {
+                            "id": "800",
+                            "type": "names"
+                        },
+                        {
+                            "id": "810",
+                            "type": "names"
+                        }
+                    ],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/800/names"
+                    }
+                },
+                "phoneNumbers": {
+                    "data": [],
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/800/phoneNumbers"
+                    }
+                },
+                "wiscard": {
+                    "data": {
+                        "id": "800",
+                        "type": "wiscard"
+                    },
+                    "links": {
+                        "related": "https://mock.api.wisc.edu/people/800/wiscard"
+                    }
+                }
+            },
+            "type": "people"
+        }
+    ],
+    "links": {
+        "self": "https://mock.api.wisc.edu/people"
+    }
+}
